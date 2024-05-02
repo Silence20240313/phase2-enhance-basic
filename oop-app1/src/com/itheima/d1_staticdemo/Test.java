@@ -23,6 +23,6 @@ public class Test {
         s2.age = 18;
         System.out.println(s1.age);//23
 
-        System.out.println(Student.age);//报错
+        //System.out.println(Student.age);//报错
     }
 }
