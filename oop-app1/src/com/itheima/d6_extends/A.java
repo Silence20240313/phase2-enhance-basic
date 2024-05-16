@@ -9,7 +9,7 @@ public class A {
 
     //私有成员
     public int j;
-    public void print2(){
+    private  void print2(){
         System.out.println("=====print2=====");
     }
 }
