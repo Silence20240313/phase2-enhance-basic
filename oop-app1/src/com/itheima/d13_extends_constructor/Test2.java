@@ -4,6 +4,9 @@ public class Test2 {
     public static void main(String [] arges){
         //目标：搞清楚子类构造器为什么要调用父类构造器，有啥应用场景
         Teacher t = new Teacher("李四",36,"Java") ;
+        System.out.println(t.getName());
+        System.out.println(t.getAge());
+        System.out.println(t.getSkill());
 
     }
 }
@@ -12,7 +15,8 @@ class Teacher extends People{
     private String skill;
 
     public Teacher(String name,int age,String skill){
-
+       super(name,age);
+       this.skill = skill;
     }
 
     public String getSkill() {
