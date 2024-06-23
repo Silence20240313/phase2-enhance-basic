@@ -7,4 +7,7 @@ public class Teacher extends People {
         System.out.println("老师跑的累");
     }
 
+    public void teach(){
+        System.out.println("老师需要教知识");
+    }
 }
