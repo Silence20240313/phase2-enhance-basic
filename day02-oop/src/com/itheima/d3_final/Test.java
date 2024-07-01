@@ -4,7 +4,7 @@ public class Test {
     //常量：public static final修饰的成员变量，建议名称全部大写，多个单词下划线连接
     public static final String SCHOOL_NAME = "黑马";
 
-
+    private final String name ="猪八戒";//这种用法没有意义
 
     public static void main(String[] args) {
         //目标：认识final的作用
@@ -19,6 +19,8 @@ public class Test {
         // r = 0.1;//第二次赋值，报错了
 
         //schoolName = "白马";//第二次赋值，报错了
+        Test t = new Test() ;
+        //t.name = "孙悟空";
     }
 
     public static void buy(final double z){
