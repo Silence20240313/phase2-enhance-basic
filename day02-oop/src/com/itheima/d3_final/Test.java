@@ -18,6 +18,9 @@ public class Test {
         final double r = 3.14;
         // r = 0.1;//第二次赋值，报错了
 
+        final int[] arr ={11,22,33} ;
+        //arr = null;//第二次赋值，报错了
+        arr[1] = 222;
         //schoolName = "白马";//第二次赋值，报错了
         Test t = new Test() ;
         //t.name = "孙悟空";
